@@ -9,13 +9,13 @@ public abstract class Criaturas {
     private int pontosDeVida;
     private String elemento;
     
-    public Criaturas(String nome, int poder, int ataque, int defesa, int velocidade, int pontosDevida, String elemento) {
+    public Criaturas(String nome, int poder, int ataque, int defesa, int velocidade, int pontosDeVida, String elemento) {
         this.nome = nome;
         this.poder = poder;
         this.ataque = ataque;
         this.defesa = defesa;
         this.velocidade = velocidade;
-        this.pontosDeVida = pontosDevida;
+        this.pontosDeVida = pontosDeVida;
         this.elemento = elemento;
     }
      public String getNome() {

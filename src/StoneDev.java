@@ -13,9 +13,15 @@ public class StoneDev extends Criaturas {
 
     @Override
     public void atacar(Criaturas inimigos) {
+        int dano = calcularDano(inimigos.getDefesa());
+        inimigos.setPontosDeVida(dano);
        
 
         
+    }
+
+    private int calcularDano(int defesa) {
+        return 0;
     }
 
     public void ataqueFisico(Criaturas inimigos) {
